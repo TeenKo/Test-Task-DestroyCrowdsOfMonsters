@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4F99FDD5-E27C-A825-6011-9A5C168602C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2020_3_42;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;USE_SEARCH_ENGINE_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.3.42f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\[GameCore]\Core\DeveloperMode\EditorInputSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IRigidbodyListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\TouchSystems\Systems\SwipeSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\DataStorage\Systems\SaveDataSystem.cs" />
+    <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickOffsetAngleComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameExplosionComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDamageComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\UiComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonOpenStoreInputSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserDataInitializeSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAmmoComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyMainMenuListener.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveSetDefaultStateGameSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemyCountReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Analytic\AnalyticContext.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameSaveDataComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\AmmoView.cs" />
+    <Compile Include="Assets\Generated\State\StateEntity.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerComponents.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataScoreComponent.cs" />
+    <Compile Include="Assets\Generated\Audio\AudioComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickCameraComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAttackDistanceComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UI\UIScreen.cs" />
+    <Compile Include="Assets\Generated\Level\LevelAttribute.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickAxisOptionsListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\DataStorage\Systems\LoadDataSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickMoveThresholdEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHorizontalAxisListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\GameLevelsSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelPlayTimeListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameCore.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\ColliderEventSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonGetMoneyRewardAtStoreComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\AttackPlayerReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Control\MouseTurnExecuteSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDeadZoneComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyView.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyDeathCountListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickSnapXEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\Systems\InputGroupSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickAxisOptionsListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserDataLoadCompleteSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\GameGameObjectNameEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UI\UIRootSchema.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickBackgroundAnchoredPositionListener.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Control\ControlSystems.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonGetPremiumStoreRandomItemByAdsComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Systems\RemoveUIPlayerMoneyHideUiSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\ColliderListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchDownPositionComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickMoveThresholdListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\CommonComponents.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateDefeatComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEndPositionComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickSnapXListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickAxisOptionsListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameHashCodeComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickBackgroundAnchoredPositionEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickHandleRangeListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAttackRechargeComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\ViewElements\UILevelProgressView.cs" />
+    <Compile Include="Assets\Generated\State\StateCleanupSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\ISetDefaultStateListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\LevelSchema.cs" />
+    <Compile Include="Assets\[GameCore]\Services\GameLevelsLoadRule\RandomLoopedChainGameLevelsLoadRule.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateLoadingComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\Systems\UIPlayerMoneyShowReactSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Systems\RemoveUIPlayerMoneyShowUiSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\TakeDamageListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameSetDefaultStateComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyShowListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelCountEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDeathComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\RectListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemyLiveExecuteSystem.cs" />
+    <Compile Include="Assets\Generated\Input\InputEntity.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchSwipeDirectionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelEventSystem.cs" />
+    <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseEntity.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\Systems\UIPlayerMoneyHideReactSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\VictoryTransitionListenerSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetSimpleStoreRandomItemByMoneyInputSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveAttackPlayerGameSystem.cs" />
+    <Compile Include="Assets\Generated\Advertisement\AdvertisementComponentsLookup.cs" />
+    <Compile Include="Assets\[GameCore]\DebugService.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickSnapYEventSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\CreateAmmoReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameScaleComponent.cs" />
+    <Compile Include="Assets\Generated\Audio\AudioContext.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickHandleAnchoredPositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonRestoreIapInputSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonStartGameInputSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Configs\DebugLogConfig.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickHandleSetActiveEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyDefeatListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameStartAttackComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataScoreEventSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiGameScreenComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyVictoryEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataMoneyListener.cs" />
+    <Compile Include="Assets\[GameLogic]\GameSystems.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetXRewardCompleteLevelInputSystem.cs" />
+    <Compile Include="Assets\Generated\Feature.cs" />
+    <Compile Include="Assets\[GameLogic]\FolloweCameraFromPlayerExecuteSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickVerticalAxisListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UIMainMenuScreen.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDirectionAngleComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelCountListener.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetMoneyRewardAtStoreInputSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameGameObjectEnabledListenerComponent.cs" />
+    <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseMatcher.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\JoystickComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IEndPositionListener.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveMainMenuStateSystem.cs" />
+    <Compile Include="Assets\Generated\Events\InputEventSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickHandleRangeListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\InputAttribute.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataScoreListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\TouchSystems\Systems\TouchDetectSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickSnapYListener.cs" />
+    <Compile Include="Assets\Generated\Events\Components\CameraRayListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickSnapXComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveLoadDataGameSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyHideListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\GameContext.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickViewpointComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonStartGameComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IColliderListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickSnapYListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Audio\AudioEntity.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDefeanceComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\GameGameObjectNameListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UI\UIElement.cs" />
+    <Compile Include="Assets\[GameLogic]\PlayerDeathReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\AmmoComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\ScaleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\GameEventSystems.cs" />
+    <Compile Include="Assets\Generated\Advertisement\AdvertisementAttribute.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickHandleRangeEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickDeadZoneListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyDeathCountComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateMainMenuComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleRangeListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataMoneyComponent.cs" />
+    <Compile Include="Assets\Generated\Game\GameComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchUpPositionComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Services\GameLevelsLoadRule\IGameLevelsLoadRule.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UIPlayerMoneyShowListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAmmoTransformComponent.cs" />
+    <Compile Include="Assets\Generated\Input\InputCleanupSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Components\RotationListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\ExplosionReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonNoAdsInputSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameGameObjectNameListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameCurrentGameLevelComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickDeadZoneListener.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickVerticalAxisEventSystem.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateGameComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Extension\MonoBehAdvGame.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonGetSimpleStoreRandomItemByMoneyComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\DataStorage\DataStorageComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataMoneyEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\TakeDamageEventSystem.cs" />
+    <Compile Include="Assets\Generated\State\StateMatcher.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHorizontalAxisComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\TouchSwipeDirectionEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickTouchEndedReactSystem.cs" />
+    <Compile Include="Assets\[GameCore]\GameTools.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleSetActiveListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Contexts.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickHorizontalAxisListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\TouchSystems\Systems\TouchSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickViewpointListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBaseRectComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleRangeComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UIVictoryScreen.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDirectionComponent.cs" />
+    <Compile Include="Assets\Generated\Audio\AudioMatcher.cs" />
+    <Compile Include="Assets\[GameLogic]\CommonSystems\GameLoadPlayerDataCompleteReactSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAmmoStateListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelRandomComponent.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveLoadingStateSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Configs\GameConfigsCatalog.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickDirectionAngleListener.cs" />
+    <Compile Include="Assets\Generated\Events\Components\PositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickInputListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelPlayTimeComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\StartAttackReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\UIRestartButton.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\HealthEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyCompleteLevelEventSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Configs\GameLevelsConfig.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\ButtonCompleteGameReactSystem.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateCompleteLevelComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonRestartGameComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameHealthComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelPlayTimeListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\PositionEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickVerticalAxisListener.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyShowComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Attack\ShootReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveSaveDataGameSystem.cs" />
+    <Compile Include="Assets\Generated\Components\Interfaces\IGameObjectEnabledEntity.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameStartedComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameColliderListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickDirectionListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\SpawnNewEnemyReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\EnemyDeathCountListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameLevelsLoadRuleComponent.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveVictoryStateSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyLoadingListenerComponent.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveRestartStateSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickMoveThresholdComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\CameraRayReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickHandleSetActiveListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyDefeatListener.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickBackgroundSetActiveListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputCameraRayDistanceComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyGameListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyComponents.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Common\GameCommonComponents.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\UIButtonsInputSystems.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickActivateOnGameStartReactSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemyIdleStateReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUiGameObjectNameListener.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiVictoryScreenComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyRestartEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyPoolStateComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\ButtonRestartGameReactSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickAxisOptionsComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelLoopListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\DefeatTransitionListenerSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUiGameObjectEnabledListener.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\EnemyDeathCountEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyRestartListener.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UIStoreScreen.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyMainMenuListenerComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateRestartComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Configs\GameConfig.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameObjectEnabledComponent.cs" />
+    <Compile Include="Assets\Generated\State\StateContext.cs" />
+    <Compile Include="Assets\Generated\State\StateComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyMainMenuEventSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Configs\PoolConfig.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiGameObjectNameComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDeathListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyValueListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAmmoStateListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAmmoStateComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyDefeatEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDeadZoneListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickDirectionAngleEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\RestartLevelTransitionListenerSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickBackgroundSetActiveListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameLoadingDataSuccessfulComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelLoopListener.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveLoadingDataSuccessfulGameSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiGameObjectEnabledComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UILoadingScreen.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IScaleListener.cs" />
+    <Compile Include="Assets\[GameLogic]\MovePlayerExecuteSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\HealthListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IGameGameObjectEnabledListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Common\UICamera.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveDeathGameSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IGameGameObjectNameListener.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Spawn\SpawmComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickOffsetAngleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRigidbodyListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UiGameObjectNameEventSystem.cs" />
+    <Compile Include="Assets\Generated\Analytic\AnalyticEntity.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyCountComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\DeathEnemyReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataScoreListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundSetActiveComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEndPositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchDataComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAttackPlayerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\GameMatcher.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelProgressListenerComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyMainMenuListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIRootSchemaComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\DeathEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserDataSystems.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemyTakeDamage.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\StartPlayGameLevelReactSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerView.cs" />
+    <Compile Include="Assets\Generated\Audio\AudioAttribute.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickActiveComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\ViewElements\UIPlayerMoneyRewardView.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Extension\MonoBehAdv.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyDefeatListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\RigidbodyEventSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\UIPlayerMoneyComponents.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GamePositionComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Joystick.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyPoolStateListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameMoveEnemyOutCameraComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\DataStorage\Systems\DataStorageGroupSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IRectListener.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveTakeDamageGameSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyVictoryListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickViewpointListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelPlayTimeEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UiGameObjectEnabledListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UIPlayerMoneyValueListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickInputListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputCameraRayComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelCountListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UIGameScreen.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickBackgroundAnchoredPositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GamePlayerSpawnPointComponent.cs" />
+    <Compile Include="Assets\DesperateDevs\Compile.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameScaleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\InputComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameColliderComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\CameraComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelListener.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickRefreshAxisSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Common\Systems\UIRootSchemaInitializeSystem.cs" />
+    <Compile Include="Assets\Generated\Events\UiEventSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Components\RigidbodyListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\TouchSystems\TouchComponents.cs" />
+    <Compile Include="Assets\Generated\Advertisement\AdvertisementMatcher.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AmmoStateListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\SetDefaultStateListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickFloatingTypeComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickDirectionEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDirectionAngleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchMovePositionComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickSnapYListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Control\ControlComponents.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveCompleteLevelStateSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Common\GameLoopComponents.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDirectionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRectComponent.cs" />
+    <Compile Include="Assets\Generated\Components\Interfaces\IGameObjectNameEntity.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveGameStateSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\UiMatcher.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchPhaseComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\StartLoadGameLevelSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyRestartListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AmmoStateEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleAnchoredPositionComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Configs\ConfigsCatalog.cs" />
+    <Compile Include="Assets\Generated\Events\Components\TouchSwipeDirectionListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Extension\MonoBehAdvGameLevelCleanup.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiDefeatScreenComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUiGameObjectNameListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickVerticalAxisComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IHealthListener.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonOpenMainMenuInputSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonGetXRewardCompleteLevelComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Attack\AttackSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickDeadZoneEventSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiRectTransformComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelStartPlayTimeListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Control\ControlInitializeSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\EndPositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameSetDefaultStateListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickInitializeSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IPositionListener.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickMoveThresholdListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickDirectionListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRotationComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\UIEnemyCountView.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GamePositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyValueComponent.cs" />
+    <Compile Include="Assets\Generated\Events\StateEventSystems.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameIndexComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelCountListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyAttackComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonGetRevivalLevelRewardComponent.cs" />
+    <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseAttribute.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickOffsetAngleListener.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickInputListener.cs" />
+    <Compile Include="Assets\Generated\Game\GameCleanupSystems.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Configs\Config.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickHandleAnchoredPositionListener.cs" />
+    <Compile Include="Assets\Generated\Advertisement\AdvertisementContext.cs" />
+    <Compile Include="Assets\Generated\Ui\UiCleanupSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\GameLevelComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IDeathListener.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchJoystickDirectionComponent.cs" />
+    <Compile Include="Assets\Generated\Level\LevelMatcher.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Spawn\PlayerSpawnView.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetRevivalLevelRewardInputSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\CompleteLevelTransitionListenerSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickViewpointListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundAnchoredPositionListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputCameraRayListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\EnemyPoolStateEventSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputTouchSwipeDirectionComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyVictoryListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\ApplicationStateTransitionSystems.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickCanvasComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\TimerAttackRechargeReactiveSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\InitializeGameLevelsSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\DataStorage\ISavableData.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonCompleteGameInputSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\StateComponents.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameLoadingDataFailedComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiHashCodeComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelStartPlayTimeEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\DestroyMoveEnemyOutCameraGameSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiMainManuScreenComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelProgressComponent.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyCompleteLevelListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UI\UIButton.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleAnchoredPositionListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemyAttackReactiveSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UI\UIComponents.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickBackgroundSetActiveEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickSnapXListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\GameGameObjectEnabledListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickViewpointEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\JoystickDirectionAngleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleComponent.cs" />
+    <Compile Include="Assets\Generated\Advertisement\AdvertisementEntity.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelLoopEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveExplosionGameSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickInputComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameCoreSystems.cs" />
+    <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseContext.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonRestartGameInputSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\MoveEnemyOutCameraReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\ScaleEventSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\TargetImage\TargetImageView.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\CameraRayEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Configs\ConfigsCatalogsManager.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUIPlayerMoneyHideComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\EnemyPoolStateListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\UIButtonsComponents.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameLevelCleanupComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickVerticalAxisListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserDataLoadFailedSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\GameGameObjectEnabledEventSystem.cs" />
+    <Compile Include="Assets\Generated\Input\InputContext.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserFailedTheGameLevelReactSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\EndPositionEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\GameLevel.cs" />
+    <Compile Include="Assets\Generated\Input\InputMatcher.cs" />
+    <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\StartGameTransitionListenerSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleSetActiveComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataScoreListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickSystems.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GamePlayerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UiGameObjectEnabledEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameMainCameraComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\Systems\UIPlayerMoneySystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickSnapXListener.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\AmmoSystems.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameCurrentGameComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameGameObjectNameComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickDynamicTypeComponent.cs" />
+    <Compile Include="Assets\Generated\Analytic\AnalyticMatcher.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickInputEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameLoadDataComponent.cs" />
+    <Compile Include="Assets\Generated\Analytic\AnalyticComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelProgressListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickMoveThresholdListener.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\Systems\UIPlayerMoneyValueReactSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\SetDefaultStateEventSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonOpenMainMenuComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UIPlayerMoneyHideListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameSpeedComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyLoadingEventSystem.cs" />
+    <Compile Include="Assets\Generated\Level\LevelEntity.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUIPlayerMoneyShowListener.cs" />
+    <Compile Include="Assets\[GameLogic]\EnemySystems.cs" />
+    <Compile Include="Assets\Generated\Level\Components\LevelLoadNextGameLevelComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyLoadingListener.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\CameraView.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameHealthListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\UiEntity.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameLevelComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\UserDataComponents.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyLoadingListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputMousePositionComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelLoopComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\ICameraRayListener.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyCompleteLevelListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyCompleteLevelListener.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonOpenStoreComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickHorizontalAxisListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameTakeDamageListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRotationListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputMouseContolComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserWonTheGameReactSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UiGameObjectNameListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataMoneyListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonRestoreIapComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyVictoryListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickHorizontalAxisEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IAnyGameListener.cs" />
+    <Compile Include="Assets\[GameLogic]\GameInitializeSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\RemoveLoadingDataFailedGameSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\JoystickTools.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\DestroyStartAttackGameSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UIPlayerMoneyHideEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\ButtonOpenMainMenuReactSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Screens\UIDefeatScreen.cs" />
+    <Compile Include="Assets\Generated\Analytic\AnalyticAttribute.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelStartPlayTimeListenerComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickTouchBeganReactSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonCompleteGameComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelLoopListenerComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\Common\Systems\UISystems.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Extension\IViewObject.cs" />
+    <Compile Include="Assets\[GameLogic]\SpawnPlayerReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAppStateComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiUiGameObjectEnabledListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelStartPlayTimeListener.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\RectEventSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameAttackSpeedComponent.cs" />
+    <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\UIPlayerHealth.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UIPlayerMoneyValueEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\ButtonStartGameReactSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\CompleteLoadGameLevelSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundAnchoredPositionComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Extension\MonoBehAdvUi.cs" />
+    <Compile Include="Assets\[GameLogic]\GetDistanceCameraFrusturmsReactiveSystem.cs" />
+    <Compile Include="Assets\Generated\Components\Interfaces\IHashCodeEntity.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickOffsetAngleEventSystem.cs" />
+    <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickTouchMovedReactSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRectListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\GameAttribute.cs" />
+    <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetPremiumStoreRandomItemByAdsInputSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameCreateAmmoComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickAxisOptionsEventSystem.cs" />
+    <Compile Include="Assets\Generated\Ui\UiContext.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUIPlayerMoneyValueListener.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameRigidbodyComponent.cs" />
+    <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserRestartCurrentGameLevelReactSystem.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataMoneyListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\AnyGameEventSystem.cs" />
+    <Compile Include="Assets\Generated\Level\LevelContext.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelProgressEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\RotationEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\UIPlayerMoneyShowEventSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUIPlayerMoneyHideListener.cs" />
+    <Compile Include="Assets\Generated\Level\Components\LevelCleanUpGameLevelCompletedComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameTransformComponent.cs" />
+    <Compile Include="Assets\Generated\Ui\Components\UiLoadScreenComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\AnyGameListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDataKeyComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameDistanceCameraFrusturmsComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IEnemyPoolStateListener.cs" />
+    <Compile Include="Assets\Generated\Level\LevelComponentsLookup.cs" />
+    <Compile Include="Assets\Generated\State\StateAttribute.cs" />
+    <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelPlayTimeListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickOffsetAngleListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IJoystickHandleSetActiveListener.cs" />
+    <Compile Include="Assets\Generated\Game\Systems\DestroyCreateAmmoGameSystem.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateAnyRestartListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\ITakeDamageListener.cs" />
+    <Compile Include="Assets\Generated\Events\Systems\JoystickHandleAnchoredPositionEventSystem.cs" />
+    <Compile Include="Assets\Generated\Input\Components\InputButtonNoAdsComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickSnapYComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelStartPlayTimeComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameEnemyTypeComponent.cs" />
+    <Compile Include="Assets\Generated\Game\GameEntity.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IEnemyDeathCountListener.cs" />
+    <Compile Include="Assets\Generated\Ui\UiAttribute.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Attack\AttackComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Components\DeathListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameTakeDamageComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundSetActiveListenerComponent.cs" />
+    <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelCountComponent.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelProgressListener.cs" />
+    <Compile Include="Assets\Generated\State\Components\StateVictoryComponent.cs" />
+    <Compile Include="Assets\Generated\State\Systems\RemoveDefeatStateSystem.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\ITouchSwipeDirectionListener.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IRotationListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials\Lilita_One\LilitaOne-Regular_license.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets\DesperateDevs\DesperateDevs.Networking.dll" />
+    <None Include="Assets\Entitas\Entitas.Unity.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials\Fredoka_One\FredokaOne-Regular_license.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Entitas\Entitas.VisualDebugging.Unity.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Entitas\Entitas.xml" />
+    <None Include="Assets\DesperateDevs\DesperateDevs.Utils.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\The_Texture_Lab\TL_Prototype_Textures_Pack\Documentation.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Entitas\Entitas.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials\Titan_One\TitanOne-Regular_license.txt" />
+    <None Include="Assets\DesperateDevs\DesperateDevs.Serialization.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\DesperateDevs\DesperateDevs.Logging.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Third-Party Notices.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Entitas\Entitas.CodeGeneration.Attributes.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.VisualDebugging.Unity">
+      <HintPath>Assets\Entitas\Entitas.VisualDebugging.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="DesperateDevs.Logging">
+      <HintPath>Assets\DesperateDevs\DesperateDevs.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="DesperateDevs.Networking">
+      <HintPath>Assets\DesperateDevs\DesperateDevs.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas">
+      <HintPath>Assets\Entitas\Entitas.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="DesperateDevs.Serialization">
+      <HintPath>Assets\DesperateDevs\DesperateDevs.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.Unity">
+      <HintPath>Assets\Entitas\Entitas.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.CodeGeneration.Attributes">
+      <HintPath>Assets\Entitas\Entitas.CodeGeneration.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="DesperateDevs.Utils">
+      <HintPath>Assets\DesperateDevs\DesperateDevs.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Library\ScriptAssemblies\Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FA8E8C2C-DEC2-651D-BDC7-4A1F3557B98B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

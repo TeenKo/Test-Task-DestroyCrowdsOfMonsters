@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da11a70cf3b9497f8cf8718f753f3f4, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  Player: {fileID: 9136750549934016088, guid: ea6c3cbe7adc00246b1fb6d586217d19, type: 3}
+  PlayerSpeed: 5
+  PlayerHealth: 200
+  PlayerDefeance: 0.5
+  CameraOffset: {x: 0, y: 20, z: -15}
+  SmoothSpeed: 3
+  Arrow: {fileID: 6892941239745759514, guid: b3058afb1b5fb97498c79c14d510398b, type: 3}
+  ArrowCount: 10
+  ExplosionRadius: 2.3
+  ExplosionDamage: 35
+  MaxEnemyCount: 100

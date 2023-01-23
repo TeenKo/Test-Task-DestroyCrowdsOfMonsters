@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e55750998df6d49bb399d2fe4a10d6, type: 3}
+  m_Name: PoolConfig
+  m_EditorClassIdentifier: 
+  Enemies:
+  - EnemyView: {fileID: 1987358026, guid: 7dcbfcdc9be859e4084753e12d53e144, type: 3}
+    EnemyType: 0
+    EnemyCount: 100
+    Speed: 3
+    Health: 100
+    Damage: 7
+    AttackSpeed: 1
+    Defence: 0.7
+    AttackDistancce: 1.5
+    RandomWeight: 30
+  - EnemyView: {fileID: 1549195386, guid: ac8017e13e031874fa6a8eef98825712, type: 3}
+    EnemyType: 1
+    EnemyCount: 100
+    Speed: 3.5
+    Health: 115
+    Damage: 6
+    AttackSpeed: 1
+    Defence: 0.6
+    AttackDistancce: 1.5
+    RandomWeight: 24
+  - EnemyView: {fileID: 107621547, guid: 3c773e32a7cee074ab0b596d25c6a8e3, type: 3}
+    EnemyType: 2
+    EnemyCount: 100
+    Speed: 4
+    Health: 70
+    Damage: 5
+    AttackSpeed: 1
+    Defence: 0.75
+    AttackDistancce: 1.5
+    RandomWeight: 46

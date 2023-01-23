@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0cab21cb95e4820a3d0e7edd3f3158, type: 3}
+  m_Name: GameConfigsCatalog
+  m_EditorClassIdentifier: 
+  selected: 1
+  gameConfig: {fileID: 11400000, guid: 537a22d6dfe294f1ea15605fd6e07a2b, type: 2}
+  gameLevelsConfig: {fileID: 11400000, guid: 07fb9dc1db5be48b1a1de7cf14710fdb, type: 2}
+  debugLogConfig: {fileID: 11400000, guid: 64d24452ed0ca654086f8dd1197d1cca, type: 2}
+  poolConfig: {fileID: 11400000, guid: a7bd999e41790574d835cce7bda68a24, type: 2}
