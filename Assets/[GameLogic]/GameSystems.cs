@@ -9,13 +9,9 @@ public sealed class GameSystems : Systems
 
         //Game Systems
         Add(new GameInitializeSystem(contexts));
-        Add(new SpawnPlayerReactiveSystem(contexts));
-        Add(new GetDistanceCameraFrusturmsReactiveSystem(contexts));
-        Add(new CameraRayReactiveSystem(contexts));
-        Add(new MovePlayerExecuteSystem(contexts));
-        Add(new FolloweCameraFromPlayerExecuteSystem(contexts));
-        Add(new PlayerDeathReactiveSystem(contexts));
-
+ 
+        Add(new CameraSystems(contexts));
+        Add(new PlayerSystems(contexts));
         Add(new AmmoSystems(contexts));
         Add(new AttackSystems(contexts));
         Add(new EnemySystems(contexts));

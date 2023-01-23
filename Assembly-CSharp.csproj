@@ -72,7 +72,7 @@
     <Compile Include="Assets\Generated\Game\Components\GameAmmoComponent.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IAnyMainMenuListener.cs" />
     <Compile Include="Assets\Generated\Game\Systems\RemoveSetDefaultStateGameSystem.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemyCountReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyCountReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Analytic\AnalyticContext.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameSaveDataComponent.cs" />
     <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\AmmoView.cs" />
@@ -93,7 +93,7 @@
     <Compile Include="Assets\[GameCore]\Core\GameCore.cs" />
     <Compile Include="Assets\Generated\Events\Systems\ColliderEventSystem.cs" />
     <Compile Include="Assets\Generated\Input\Components\InputButtonGetMoneyRewardAtStoreComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\AttackPlayerReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\AttackPlayerReactiveSystem.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Control\MouseTurnExecuteSystem.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickDeadZoneComponent.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyView.cs" />
@@ -134,7 +134,7 @@
     <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelCountEventSystem.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameDeathComponent.cs" />
     <Compile Include="Assets\Generated\Events\Components\RectListenerComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemyLiveExecuteSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyLiveExecuteSystem.cs" />
     <Compile Include="Assets\Generated\Input\InputEntity.cs" />
     <Compile Include="Assets\Generated\Input\Components\InputTouchSwipeDirectionListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelEventSystem.cs" />
@@ -146,7 +146,7 @@
     <Compile Include="Assets\Generated\Advertisement\AdvertisementComponentsLookup.cs" />
     <Compile Include="Assets\[GameCore]\DebugService.cs" />
     <Compile Include="Assets\Generated\Events\Systems\JoystickSnapYEventSystem.cs" />
-    <Compile Include="Assets\[GameLogic]\CreateAmmoReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\CreateAmmoReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameScaleComponent.cs" />
     <Compile Include="Assets\Generated\Audio\AudioContext.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickHandleAnchoredPositionListenerComponent.cs" />
@@ -163,7 +163,7 @@
     <Compile Include="Assets\[GameLogic]\GameSystems.cs" />
     <Compile Include="Assets\Generated\Input\Systems\DestroyButtonGetXRewardCompleteLevelInputSystem.cs" />
     <Compile Include="Assets\Generated\Feature.cs" />
-    <Compile Include="Assets\[GameLogic]\FolloweCameraFromPlayerExecuteSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\FolloweCameraFromPlayerExecuteSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickVerticalAxisListenerComponent.cs" />
     <Compile Include="Assets\[GameLogic]\UI\Screens\UIMainMenuScreen.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickDirectionAngleComponent.cs" />
@@ -193,7 +193,7 @@
     <Compile Include="Assets\Generated\Game\Components\GameDefeanceComponent.cs" />
     <Compile Include="Assets\Generated\Events\Components\GameGameObjectNameListenerComponent.cs" />
     <Compile Include="Assets\[GameCore]\Core\UI\UIElement.cs" />
-    <Compile Include="Assets\[GameLogic]\PlayerDeathReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerDeathReactiveSystem.cs" />
     <Compile Include="Assets\[GameLogic]\Game\ObjectPool\Ammo\AmmoComponent.cs" />
     <Compile Include="Assets\Generated\Events\Components\ScaleListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\GameEventSystems.cs" />
@@ -248,7 +248,7 @@
     <Compile Include="Assets\Generated\Events\Components\PositionListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickInputListenerComponent.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameUserDataGameLevelPlayTimeComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\StartAttackReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Attack\StartAttackReactiveSystem.cs" />
     <Compile Include="Assets\[GameLogic]\UI\UIPlayerMoney\UIRestartButton.cs" />
     <Compile Include="Assets\Generated\Events\Systems\HealthEventSystem.cs" />
     <Compile Include="Assets\Generated\Events\Systems\AnyCompleteLevelEventSystem.cs" />
@@ -267,14 +267,14 @@
     <Compile Include="Assets\Generated\Game\Components\GameGameStartedComponent.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameColliderListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickDirectionListenerComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\SpawnNewEnemyReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\SpawnNewEnemyReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\EnemyDeathCountListenerComponent.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameGameLevelsLoadRuleComponent.cs" />
     <Compile Include="Assets\Generated\State\Systems\RemoveVictoryStateSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\AnyLoadingListenerComponent.cs" />
     <Compile Include="Assets\Generated\State\Systems\RemoveRestartStateSystem.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickMoveThresholdComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\CameraRayReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\CameraRayReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickHandleSetActiveListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IAnyDefeatListener.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickBackgroundSetActiveListenerComponent.cs" />
@@ -284,7 +284,7 @@
     <Compile Include="Assets\[GameCore]\Core\Common\GameCommonComponents.cs" />
     <Compile Include="Assets\[GameCore]\Core\Input\UIButtonsSystems\Systems\UIButtonsInputSystems.cs" />
     <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickActivateOnGameStartReactSystem.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemyIdleStateReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyIdleStateReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IUiGameObjectNameListener.cs" />
     <Compile Include="Assets\Generated\Ui\Components\UiVictoryScreenComponent.cs" />
     <Compile Include="Assets\Generated\Events\Systems\AnyRestartEventSystem.cs" />
@@ -321,7 +321,7 @@
     <Compile Include="Assets\Generated\Ui\Components\UiGameObjectEnabledComponent.cs" />
     <Compile Include="Assets\[GameLogic]\UI\Screens\UILoadingScreen.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IScaleListener.cs" />
-    <Compile Include="Assets\[GameLogic]\MovePlayerExecuteSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\MovePlayerExecuteSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\HealthListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IGameGameObjectEnabledListener.cs" />
     <Compile Include="Assets\[GameCore]\Core\Common\UICamera.cs" />
@@ -333,7 +333,7 @@
     <Compile Include="Assets\Generated\Events\Systems\UiGameObjectNameEventSystem.cs" />
     <Compile Include="Assets\Generated\Analytic\AnalyticEntity.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameEnemyCountComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\DeathEnemyReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\DeathEnemyReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\UserDataScoreListenerComponent.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundSetActiveComponent.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameEndPositionListenerComponent.cs" />
@@ -345,7 +345,7 @@
     <Compile Include="Assets\Generated\Ui\Components\UiUIRootSchemaComponent.cs" />
     <Compile Include="Assets\Generated\Events\Systems\DeathEventSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\UserData\Systems\UserDataSystems.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemyTakeDamage.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyTakeDamage.cs" />
     <Compile Include="Assets\[GameCore]\Core\UserData\Systems\StartPlayGameLevelReactSystem.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerView.cs" />
     <Compile Include="Assets\Generated\Audio\AudioAttribute.cs" />
@@ -461,7 +461,7 @@
     <Compile Include="Assets\Generated\State\Components\StateAnyVictoryListenerComponent.cs" />
     <Compile Include="Assets\[GameCore]\Core\ApplicationStates\Systems\ApplicationStateTransitionSystems.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickCanvasComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\TimerAttackRechargeReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\TimerAttackRechargeReactiveSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\InitializeGameLevelsSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\DataStorage\ISavableData.cs" />
     <Compile Include="Assets\Generated\Input\Systems\DestroyButtonCompleteGameInputSystem.cs" />
@@ -476,7 +476,7 @@
     <Compile Include="Assets\Generated\State\Components\StateAnyCompleteLevelListenerComponent.cs" />
     <Compile Include="Assets\[GameCore]\Core\UI\UIButton.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickHandleAnchoredPositionListenerComponent.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemyAttackReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyAttackReactiveSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\UI\UIComponents.cs" />
     <Compile Include="Assets\Generated\Events\Systems\JoystickBackgroundSetActiveEventSystem.cs" />
     <Compile Include="Assets\Generated\Events\Components\JoystickSnapXListenerComponent.cs" />
@@ -491,7 +491,7 @@
     <Compile Include="Assets\[GameCore]\Core\GameCoreSystems.cs" />
     <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseContext.cs" />
     <Compile Include="Assets\Generated\Input\Systems\DestroyButtonRestartGameInputSystem.cs" />
-    <Compile Include="Assets\[GameLogic]\MoveEnemyOutCameraReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\MoveEnemyOutCameraReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Events\Systems\ScaleEventSystem.cs" />
     <Compile Include="Assets\[GameLogic]\Game\TargetImage\TargetImageView.cs" />
     <Compile Include="Assets\Generated\Events\Systems\CameraRayEventSystem.cs" />
@@ -535,7 +535,7 @@
     <Compile Include="Assets\Generated\Events\Systems\AnyLoadingEventSystem.cs" />
     <Compile Include="Assets\Generated\Level\LevelEntity.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IUIPlayerMoneyShowListener.cs" />
-    <Compile Include="Assets\[GameLogic]\EnemySystems.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemySystems.cs" />
     <Compile Include="Assets\Generated\Level\Components\LevelLoadNextGameLevelComponent.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IAnyLoadingListener.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Camera\CameraView.cs" />
@@ -561,7 +561,7 @@
     <Compile Include="Assets\Generated\Events\Components\AnyVictoryListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Systems\JoystickHorizontalAxisEventSystem.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IAnyGameListener.cs" />
-    <Compile Include="Assets\[GameLogic]\GameInitializeSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\GameInitializeSystem.cs" />
     <Compile Include="Assets\Generated\Game\Systems\RemoveLoadingDataFailedGameSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\JoystickTools.cs" />
     <Compile Include="Assets\Generated\Game\Systems\DestroyStartAttackGameSystem.cs" />
@@ -575,7 +575,7 @@
     <Compile Include="Assets\Generated\Events\Components\UserDataGameLevelLoopListenerComponent.cs" />
     <Compile Include="Assets\[GameLogic]\UI\Common\Systems\UISystems.cs" />
     <Compile Include="Assets\[GameCore]\Core\Extension\IViewObject.cs" />
-    <Compile Include="Assets\[GameLogic]\SpawnPlayerReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\SpawnPlayerReactiveSystem.cs" />
     <Compile Include="Assets\Generated\State\Components\StateAppStateComponent.cs" />
     <Compile Include="Assets\Generated\Ui\Components\UiUiGameObjectEnabledListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IUserDataGameLevelStartPlayTimeListener.cs" />
@@ -587,7 +587,7 @@
     <Compile Include="Assets\[GameCore]\Core\GameLevels\Systems\CompleteLoadGameLevelSystem.cs" />
     <Compile Include="Assets\Generated\Game\Components\GameJoystickBackgroundAnchoredPositionComponent.cs" />
     <Compile Include="Assets\[GameCore]\Core\Extension\MonoBehAdvUi.cs" />
-    <Compile Include="Assets\[GameLogic]\GetDistanceCameraFrusturmsReactiveSystem.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\GetDistanceCameraFrusturmsReactiveSystem.cs" />
     <Compile Include="Assets\Generated\Components\Interfaces\IHashCodeEntity.cs" />
     <Compile Include="Assets\Generated\Events\Systems\JoystickOffsetAngleEventSystem.cs" />
     <Compile Include="Assets\[GameCore]\Core\Input\JoystickSystems\Systems\JoystickTouchMovedReactSystem.cs" />
@@ -640,6 +640,8 @@
     <Compile Include="Assets\Generated\State\Systems\RemoveDefeatStateSystem.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\ITouchSwipeDirectionListener.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\IRotationListener.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerSystems.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Camera\CameraSystems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
