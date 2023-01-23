@@ -48,6 +48,6 @@ public class CameraRayReactiveSystem : ReactiveSystem<InputEntity>
     {
         if (_playerEntity == null) _playerEntity = _playerEntitiesGroup.GetEntities().FirstOrDefault();
 
-        if (_playerTransform == null) _playerTransform = _playerEntity.transform.value;
+        if (_playerTransform == null) _playerTransform = _playerEntity.transform.value; 
     }
 }

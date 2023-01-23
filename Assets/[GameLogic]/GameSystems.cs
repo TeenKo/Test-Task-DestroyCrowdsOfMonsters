@@ -9,9 +9,9 @@ public sealed class GameSystems : Systems
 
         //Game Systems
         Add(new GameInitializeSystem(contexts));
- 
-        Add(new CameraSystems(contexts));
+
         Add(new PlayerSystems(contexts));
+        Add(new CameraSystems(contexts));
         Add(new AmmoSystems(contexts));
         Add(new AttackSystems(contexts));
         Add(new EnemySystems(contexts));

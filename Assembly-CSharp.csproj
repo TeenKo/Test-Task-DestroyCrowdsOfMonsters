@@ -136,6 +136,7 @@
     <Compile Include="Assets\Generated\Events\Components\RectListenerComponent.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Units\Enemy\EnemyLiveExecuteSystem.cs" />
     <Compile Include="Assets\Generated\Input\InputEntity.cs" />
+    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerSystems.cs" />
     <Compile Include="Assets\Generated\Input\Components\InputTouchSwipeDirectionListenerComponent.cs" />
     <Compile Include="Assets\Generated\Events\Systems\UserDataGameLevelEventSystem.cs" />
     <Compile Include="Assets\Generated\InAppPurchase\InAppPurchaseEntity.cs" />
@@ -639,9 +640,8 @@
     <Compile Include="Assets\Generated\State\Components\StateVictoryComponent.cs" />
     <Compile Include="Assets\Generated\State\Systems\RemoveDefeatStateSystem.cs" />
     <Compile Include="Assets\Generated\Events\Interfaces\ITouchSwipeDirectionListener.cs" />
-    <Compile Include="Assets\Generated\Events\Interfaces\IRotationListener.cs" />
-    <Compile Include="Assets\[GameLogic]\Game\Units\Player\PlayerSystems.cs" />
     <Compile Include="Assets\[GameLogic]\Game\Camera\CameraSystems.cs" />
+    <Compile Include="Assets\Generated\Events\Interfaces\IRotationListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

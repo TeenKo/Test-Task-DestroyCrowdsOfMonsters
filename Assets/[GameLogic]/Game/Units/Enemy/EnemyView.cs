@@ -56,7 +56,6 @@ public class EnemyView : MonoBehAdvGame, IDeathListener, ITakeDamageListener, IS
         {
             if (GameEntity.enemyType.value == enemy.EnemyType)
             {
-                Debug.Log("SetDefaul");
                 GameEntity.isEnemyAttack = false;
                 GameEntity.isAttackPlayer = false;
                 GameEntity.ReplaceHealth(enemy.Health);
